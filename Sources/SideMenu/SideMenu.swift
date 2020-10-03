@@ -67,7 +67,7 @@ public struct SideMenu : View {
         return GeometryReader { geometry in
             ZStack {
                 self.sideMenuCenterView
-                    .opacity(1)
+                    //.opacity(1)
                     .transition(.opacity)
                 
                 if self.sideMenuLeftPanel && self.leftMenu != nil {
